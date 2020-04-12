@@ -2,7 +2,7 @@ version: 0.0
 environment_variables:
     plaintext:
         "INPUT_FILE": "saml.yaml"
-        "S3_BUCKET": "serverless-website-stackname-s3bucket-izbc8dv56m3x"
+        "S3_BUCKET": ""
 containers:
     LambdaFunctions:
         phases:
