@@ -11,7 +11,7 @@ Resources:
         Type: AWS::Serverless::Function
         Properties:
             Handler: index.handler
-            Runtime: nodejs10.13
+            Runtime: nodejs10.18
             CodeUri: ./
             Environment:
                 Variables:
